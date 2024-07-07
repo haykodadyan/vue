@@ -28,7 +28,7 @@ const handleDelete = (id) => {
     <div class="todo-props-block">
       <input @click="() => handleCheckboxClick(id)" class="check-button" type="checkbox">
       <button @click="() => handleDelete(id)">Delete</button>
-      <button @click="() => handleCheckboxClick(id)">Edit</button>
+      <button>Edit</button>
     </div>
   </div>
 </template>
